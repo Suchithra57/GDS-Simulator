@@ -48,6 +48,13 @@ public class BasicOptions {
 		Option opt2 = OptionBuilder.create("gds");
 		options.addOption(opt2);
 		
+		OptionBuilder.withArgName("get autoload filename");
+		OptionBuilder.hasArgs(3);
+		OptionBuilder.withValueSeparator(' ');
+		OptionBuilder.withDescription("get autoload file from S3");
+		Option opt3 = OptionBuilder.create("gds");
+		options.addOption(opt3);
+		
 		System.out.println("Usage : <command> <option> <arguments..>");
 		for (;;) {
 			try {

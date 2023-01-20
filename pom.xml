@@ -18,16 +18,16 @@
 			<groupId>com.genfare.cloud.osgi</groupId>
 			<artifactId>device-schemas</artifactId>
 			<scope>system</scope>
-			<version>20.0.0</version>
-			<systemPath>${basedir}/src/lib/device-schemas-20.0.0.jar</systemPath>
+			<version>21.0.0</version>
+			<systemPath>${basedir}/src/lib/device-schemas-21.0.0.jar</systemPath>
 		</dependency>
 
 		<dependency>
 			<groupId>com.genfare.cloud.osgi</groupId>
 			<artifactId>device-service</artifactId>
 			<scope>system</scope>
-			<version>20.0.0</version>
-			<systemPath>${basedir}/src/lib/device-service-20.0.0.jar</systemPath>
+			<version>21.0.0</version>
+			<systemPath>${basedir}/src/lib/device-service-21.0.0.jar</systemPath>
 		</dependency>
 
 		<dependency>
